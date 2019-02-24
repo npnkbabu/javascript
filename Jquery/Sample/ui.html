@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Jquery tutorial</title>
+        <link rel='stylesheet' type='text/css' href='index.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script  src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script>
+        <script  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="  crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <input id='date' type='text' size='10'/>
+        <script>
+            $('#date').datepicker();
+        </script>
+        <h1>jquery tutorial</h1>
+        <style>
+            #drag{
+                width:150px;
+                height:60px;
+                background-color:blueviolet;
+            }
+        </style>
+        <script>
+            $(function(){
+                $('#drag').draggable();
+                $('#drop').droppable();
+            });
+        </script>
+        <div id='drag'>
+            <img src='img/i1.jpg'>
+        </div>
+        <div id='drop'>
+            <p> drop </p>
+        </div>
+        <style>
+            #drop{
+                width:400px;
+                height:400px;
+                float:right;
+                background-color:aquamarine;
+            }
+        </style>
+         
+    </body>
+</html>
