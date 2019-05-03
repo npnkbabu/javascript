@@ -1,0 +1,14 @@
+develop pure node js without any packages
+GET , POST, PUT, DELETE 
+Learn internals of Nodejs
+mssql
+modular approach 
+REST client is HTTP tools
+
+App Overiew : 
+HTTP server is in Node.js and interacts with MS SQL Server. 
+client will be developed by HTTP tools . it will connect to internet and consume the service
+
+Core--> db.js, httpsMsgs.js, server.js
+controllers --> employee.js
+app.js

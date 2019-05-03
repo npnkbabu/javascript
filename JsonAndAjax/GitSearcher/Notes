@@ -1,0 +1,11 @@
+Github user profile searcher
+input : enter username
+output : show user profile with enabled links
+Requirements : register a new application with github , otherwise it will allow only 50 requests per hour
+so goto https://github.com/settings/applications/new and register
+
+we are uisng bootswatch css
+bootstrap through cdn
+jquery for AJAX
+
+Generally https://api.github.com/users/npnkbabu gives the user profile data in json
