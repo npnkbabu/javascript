@@ -1,5 +1,5 @@
 let shopping = [];
-shopping = ['paintbrush','colorpallet','lastone'];
+shopping = ['paintbrush','colorpallet','lastone','lasttwo'];
 console.log(shopping);
 let numbers = [1,5,3];
 console.log(numbers[0] + numbers[1]);
